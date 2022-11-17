@@ -74,3 +74,51 @@ fieldset label {
     color: #049dbf;
 }
 
+/* LIST */
+
+ul {
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 20px;
+}
+
+ul li {
+    height: 20px;
+    margin-top: 5px;
+}
+
+/* SUBMIT BLOCK */
+
+.submitBlock {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.submitBlock__btn {
+    width: 30%;
+}
+
+.submitBlock__btn button {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    color: lightgray;
+    border: solid 1px lightgray;
+    font-weight: 600;
+}
+
+.submitBlock__check {
+    margin-left: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.submitBlock__check input {
+    width: 20px;
+    height: 20px;
+    color: lightgray;
+    margin: 0 10px;
+}
